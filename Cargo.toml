@@ -1,0 +1,15 @@
+[package]
+name = "enum-mapper"
+version = "0.1.0"
+authors = ["caelunshun <caelunshun@gmail.com>"]
+edition = "2018"
+description = "A macro to generate mappings between enum variants and corresponding values"
+license = "MIT/Apache-2.0"
+repository = "https://github.com/caelunshun/enum-mapper"
+readme = "README.md"
+keywords = ["enum", "proc-macro", "mappings"]
+categories = []
+
+[dependencies]
+syn = "0.15"
+quote = "0.6"
